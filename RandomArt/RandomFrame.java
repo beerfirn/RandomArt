@@ -10,7 +10,7 @@ public class RandomFrame
         //Create Frame
         theFrame = new JFrame();
         theFrame.setTitle("Group10 RandomArt");
-        theFrame.setLocation(1000,400);
+        theFrame.setLocation(1000,400); //set where the frame will appear on monitor
         theFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         theFrame.setPreferredSize(new Dimension(400,400)); //border's size
  
@@ -49,6 +49,6 @@ public class RandomFrame
         return result;
     }
     public void start(){
-        theFrame.setVisible(true);
+        theFrame.setVisible(true); // make theframe can see
     }
 }
